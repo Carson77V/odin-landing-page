@@ -1,11 +1,22 @@
 body {
     font-family: Roboto;
 }
-
+/* files related to header (start)*/
 .header {
     display: flex;
+    background-color: 
 }
 
 .header-logo {
-    color: blue;
+
 }
+
+.header ul {
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+/* files related to header (end)*/
