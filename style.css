@@ -1,19 +1,27 @@
 body {
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 /* files related to header (start)*/
 .header {
     display: flex;
     background-color: #1f2937;
+    align-items: center;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    flex: 1;
 }
 
 .header ul {
+    display: flex;
     list-style: none;
+    gap: 10px;
+    justify-content: flex-end;
+    
 }
 
 .header a {
