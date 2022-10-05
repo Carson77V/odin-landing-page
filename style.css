@@ -8,12 +8,14 @@ body {
     display: flex;
     background-color: #1f2937;
     align-items: center;
+    padding: 10px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
     flex: 1;
+    margin: 0 100px;
 }
 
 .header ul {
@@ -21,7 +23,7 @@ body {
     list-style: none;
     gap: 10px;
     justify-content: flex-end;
-    
+    margin: 0 100px;
 }
 
 .header a {
@@ -30,3 +32,15 @@ body {
     font-size: 18px;
 }
 /* files related to header (end)*/
+
+/* files related to footer (start)*/
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+/*files related to footer (end)*/
