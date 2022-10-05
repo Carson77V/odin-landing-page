@@ -4,18 +4,22 @@ body {
     padding: 0;
 }
 /* files related to header (start)*/
-.header {
+.hero {
     display: flex;
     background-color: #1f2937;
+    flex-direction: column;
+    padding: 1em 10em 5em 10em;
+}
+
+.header {
+    display: flex;
     align-items: center;
-    padding: 10px;
 }
 
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
     flex: 1;
-    margin: 0 100px;
 }
 
 .header ul {
@@ -23,7 +27,7 @@ body {
     list-style: none;
     gap: 10px;
     justify-content: flex-end;
-    margin: 0 100px;
+    justify-content: center;
 }
 
 .header a {
