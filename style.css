@@ -4,7 +4,7 @@ body {
 /* files related to header (start)*/
 .header {
     display: flex;
-    background-color: 
+    background-color: #1f2937;
 }
 
 .header-logo {
