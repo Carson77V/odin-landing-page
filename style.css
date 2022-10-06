@@ -42,25 +42,46 @@ body {
     display: flex;
     padding: 4em 0;
     justify-content: space-between;
+    gap: 2em;
 }
 
 .content-text {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-content img {
     height: auto;
     width: auto;
     max-height: auto;
-    max-width: 30em;
+    max-width: 500px;
     border-radius: 5px;
+    flex-shrink: 1;
 }
 
 .hero-main-text {
     color: #f9faf8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
 
+}
+
+.hero-2nd-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.flex-button {
+    display: flex;
+    justify-content: flex-start;
+}
+.action-button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+    padding: 5px 1em;
+    display: flex;
+    justify-content: flex-start;
 }
 /* files related to header (end)*/
 
