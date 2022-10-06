@@ -103,6 +103,15 @@ body {
 .info-body {
     display: flex;
 }
+
+.info-body div {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border-color: #3882f6;
+}
 /* files related to info (end) */
 
 /* files related to footer (start)*/
