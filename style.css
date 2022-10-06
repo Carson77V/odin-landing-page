@@ -86,6 +86,14 @@ body {
 }
 /* files related to header (end)*/
 
+/* files related to info (start)*/
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* files related to info (end) */
+
 /* files related to footer (start)*/
 .footer {
     display: flex;
