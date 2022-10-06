@@ -90,7 +90,18 @@ body {
 .info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    padding: 1em 10em 2em 10em;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.info-body {
+    display: flex;
 }
 /* files related to info (end) */
 
