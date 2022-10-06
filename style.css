@@ -40,6 +40,8 @@ body {
 
 .hero-content {
     display: flex;
+    padding: 4em 0;
+    justify-content: space-between;
 }
 
 .content-text {
@@ -48,8 +50,17 @@ body {
 
 .hero-content img {
     height: auto;
-    width: 30em;
+    width: auto;
+    max-height: auto;
+    max-width: 30em;
     border-radius: 5px;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+
 }
 /* files related to header (end)*/
 
