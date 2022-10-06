@@ -37,6 +37,20 @@ body {
     color: #e5e7eb;
     font-size: 18px;
 }
+
+.hero-content {
+    display: flex;
+}
+
+.content-text {
+
+}
+
+.hero-content img {
+    height: auto;
+    width: 30em;
+    border-radius: 5px;
+}
 /* files related to header (end)*/
 
 /* files related to footer (start)*/
