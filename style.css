@@ -8,7 +8,7 @@ body {
     display: flex;
     background-color: #1f2937;
     flex-direction: column;
-    padding: 1em 10em 5em 10em;
+    padding: 1em 10em 2em 10em;
     align-items: stretch;
 }
 
@@ -48,6 +48,7 @@ body {
 .content-text {
     display: flex;
     flex-direction: column;
+    gap: 1em;
 }
 
 .hero-content img {
