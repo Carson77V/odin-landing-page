@@ -131,6 +131,23 @@ body {
 }
 /* files related to info (end) */
 
+/* files related to quote (start) */
+
+.quote-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+
+}
+
+.author {
+    
+}
+/* files related to quote (end) */
+
 /* files related to footer (start)*/
 .footer {
     display: flex;
