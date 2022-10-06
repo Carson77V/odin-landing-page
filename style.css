@@ -92,6 +92,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 1em 10em 2em 10em;
+    gap: 2.5em;
 }
 
 .info-header {
@@ -102,6 +103,7 @@ body {
 
 .info-body {
     display: flex;
+    gap: 2em;
 }
 
 .info-body div {
@@ -109,8 +111,15 @@ body {
     flex-direction: column;
 }
 
-.box {
-    border-color: #3882f6;
+.info-body img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+
+.info-text {
+    
 }
 /* files related to info (end) */
 
