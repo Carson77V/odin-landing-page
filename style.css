@@ -157,8 +157,20 @@ body {
 /* files related to call to action (start)*/
 .call-to-action {
     margin: 3em 13em 3em 13em;
+    padding: 2em 3em;
     background-color: #3882f6;
     border-radius: 5px;
+    display: flex;
+}
+
+.action-text {
+
+}
+
+.call-to-action .action-button {
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
 }
 /* files related to call to action (end)*/
 
