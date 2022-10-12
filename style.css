@@ -154,6 +154,14 @@ body {
 }
 /* files related to quote (end) */
 
+/* files related to call to action (start)*/
+.call-to-action {
+    margin: 3em 13em 3em 13em;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+/* files related to call to action (end)*/
+
 /* files related to footer (start)*/
 .footer {
     display: flex;
